@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+#include <string>
+
+
+int main(){
+  string mystring;
+  mystring = "my string is mine";
+  cout << mystring <<"\n";
+  mystring  = "my string is not mine";
+  cout << mystring <<"\n";
+  return 0;
+}
